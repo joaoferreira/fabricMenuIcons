@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    ScriptSrc="~SiteCollection/Style Library/fabricMenuIcons/js/jquery.min.js"
+    Location="ScriptLink"
+    Sequence="1">
+  </CustomAction>
+  <CustomAction
+    ScriptSrc="~SiteCollection/Style Library/fabricMenuIcons/js/fabricMenuIcons.js"
+    Location="ScriptLink"
+    Sequence="2">
+  </CustomAction>
+</Elements>

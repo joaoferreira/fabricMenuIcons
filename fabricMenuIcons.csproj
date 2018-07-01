@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6925080A-FB89-4F2F-BB6C-1940ABD93D3F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>fabricMenuIcons</RootNamespace>
+    <AssemblyName>fabricMenuIcons</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fabricMenuIcons\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d7feaf57-47a5-40b4-8813-160b07674d63}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Fabric Menu Icons feature\Fabric Menu Icons feature.feature">
+      <FeatureId>{b61fd0ba-2d3c-4164-b8df-104d25b42601}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Menu Icons\Menu Icons Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c4a7f06-7308-4f70-bcb6-6c64c560d5d5}</SharePointProjectItemId>
+    </None>
+    <None Include="Menu Icons\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{828aaf47-3202-4a37-ac35-09d1e5ff8886}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{2d4b1781-e586-433a-9839-941f58bbc508}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Style Library\fabricMenuIcons\fonts\fabricmdl2icons-2.47.ttf" />
+    <None Include="Style Library\fabricMenuIcons\fonts\fabricmdl2icons-2.47.woff" />
+    <None Include="Style Library\fabricMenuIcons\fonts\fabricmdl2icons-2.47.woff2" />
+    <None Include="Style Library\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{37878c06-45bd-4f0e-b427-0e448ffde2d2}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="fabricMenuIcons\Elements.xml" />
+    <Content Include="Features\Fabric Menu Icons feature\Fabric Menu Icons feature.Template.xml">
+      <DependentUpon>Fabric Menu Icons feature.feature</DependentUpon>
+    </Content>
+    <Content Include="Menu Icons\Elements.xml" />
+    <Content Include="Menu Icons\Menu Icons Instance\Elements.xml" />
+    <Content Include="Menu Icons\Schema.xml" />
+    <Content Include="Style Library\fabricMenuIcons\css\fabricMenuIcons.css" />
+    <Content Include="Style Library\Elements.xml" />
+    <Content Include="Style Library\fabricMenuIcons\js\fabricMenuIcons.js" />
+    <Content Include="Style Library\fabricMenuIcons\js\jquery.min.js" />
+    <Content Include="Style Library\fabricMenuIcons\pages\menuIcons.aspx" />
+    <Content Include="Style Library\fabricMenuIcons\pages\menuIconsActions.aspx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

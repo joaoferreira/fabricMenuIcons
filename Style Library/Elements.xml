@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="StyleLibraryCSS" Url="Style Library/fabricMenuIcons/css" RootWebOnly="FALSE" Path="Style Library\fabricMenuIcons\css">
+    <File Url="fabricMenuIcons.css" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+  </Module>
+  <Module Name="StyleLibraryFONTS" Url="Style Library/fabricMenuIcons/fonts" RootWebOnly="FALSE" Path="Style Library\fabricMenuIcons\fonts">
+    <File Url="fabricmdl2icons-2.47.ttf" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+    <File Url="fabricmdl2icons-2.47.woff" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+    <File Url="fabricmdl2icons-2.47.woff2" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+  </Module>
+  <Module Name="StyleLibraryJS" Url="Style Library/fabricMenuIcons/js" RootWebOnly="FALSE" Path="Style Library\fabricMenuIcons\js">
+    <File Url="fabricMenuIcons.js" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+    <File Url="jquery.min.js" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+  </Module>
+  <Module Name="StyleLibraryPAGES" Url="Style Library/fabricMenuIcons/pages" RootWebOnly="FALSE" Path="Style Library\fabricMenuIcons\pages">
+    <File Url="menuIcons.aspx" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+    <File Url="menuIconsActions.aspx" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE"  />
+  </Module>
+</Elements>

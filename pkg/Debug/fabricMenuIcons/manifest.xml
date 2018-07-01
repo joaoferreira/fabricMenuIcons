@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2d4b1781-e586-433a-9839-941f58bbc508" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="fabricMenuIcons_Fabric Menu Icons feature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

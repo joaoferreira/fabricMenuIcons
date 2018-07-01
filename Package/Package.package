@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2d4b1781-e586-433a-9839-941f58bbc508" solutionId="2d4b1781-e586-433a-9839-941f58bbc508" resetWebServer="false" sharePointProductVersion="15.0" name="fabricMenuIcons" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b61fd0ba-2d3c-4164-b8df-104d25b42601" />
+  </features>
+</package>

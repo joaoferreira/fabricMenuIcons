@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\fabricMenuIcons\fabricMenuIcons\fabricMenuIcons\bin\Debug\fabricMenuIcons.dll
+C:\Users\Administrator\Desktop\fabricMenuIcons\fabricMenuIcons\fabricMenuIcons\bin\Debug\fabricMenuIcons.pdb
+C:\Users\Administrator\Desktop\fabricMenuIcons\fabricMenuIcons\fabricMenuIcons\obj\Debug\fabricMenuIcons.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\fabricMenuIcons\fabricMenuIcons\fabricMenuIcons\obj\Debug\fabricMenuIcons.dll
+C:\Users\Administrator\Desktop\fabricMenuIcons\fabricMenuIcons\fabricMenuIcons\obj\Debug\fabricMenuIcons.pdb

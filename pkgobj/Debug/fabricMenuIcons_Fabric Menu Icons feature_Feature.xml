@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Customize SharePoint menu items using modern Frabric UI Icons" Id="b44b89b4-4561-4221-afdb-1b20d28a749e" Scope="Site" Title="Fabric Menu Icons">
+  <ElementManifests>
+    <ElementManifest Location="fabricMenuIcons\Elements.xml" />
+    <ElementManifest Location="Style Library\Elements.xml" />
+    <ElementFile Location="Style Library\fabricMenuIcons\js\fabricMenuIcons.js" />
+    <ElementFile Location="Style Library\fabricMenuIcons\fonts\fabricmdl2icons-2.47.ttf" />
+    <ElementFile Location="Style Library\fabricMenuIcons\fonts\fabricmdl2icons-2.47.woff" />
+    <ElementFile Location="Style Library\fabricMenuIcons\fonts\fabricmdl2icons-2.47.woff2" />
+    <ElementFile Location="Style Library\fabricMenuIcons\css\fabricMenuIcons.css" />
+    <ElementFile Location="Style Library\fabricMenuIcons\js\jquery.min.js" />
+    <ElementFile Location="Style Library\fabricMenuIcons\pages\menuIcons.aspx" />
+    <ElementFile Location="Style Library\fabricMenuIcons\pages\menuIconsActions.aspx" />
+    <ElementManifest Location="Menu Icons Instance\Elements.xml" />
+    <ElementManifest Location="Menu Icons\Elements.xml" />
+    <ElementFile Location="Menu Icons\Schema.xml" />
+  </ElementManifests>
+</Feature>

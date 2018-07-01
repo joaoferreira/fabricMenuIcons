@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Style Library\" Type="ElementManifest" />
+    <ProjectItemFile Source="fabricMenuIcons\js\fabricMenuIcons.js" Target="Style Library\fabricMenuIcons\js\" Type="ElementFile" />
+    <ProjectItemFile Source="fabricMenuIcons\fonts\fabricmdl2icons-2.47.ttf" Target="Style Library\fabricMenuIcons\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fabricMenuIcons\fonts\fabricmdl2icons-2.47.woff" Target="Style Library\fabricMenuIcons\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fabricMenuIcons\fonts\fabricmdl2icons-2.47.woff2" Target="Style Library\fabricMenuIcons\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fabricMenuIcons\css\fabricMenuIcons.css" Target="Style Library\fabricMenuIcons\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fabricMenuIcons\js\jquery.min.js" Target="Style Library\fabricMenuIcons\js\" Type="ElementFile" />
+    <ProjectItemFile Source="fabricMenuIcons\pages\menuIcons.aspx" Target="Style Library\fabricMenuIcons\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="fabricMenuIcons\pages\menuIconsActions.aspx" Target="Style Library\fabricMenuIcons\pages\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
