@@ -133,8 +133,8 @@ $(document).ready(function () {
 
 
         function processIcons() {
-
-            var horizontalMenuItemsText = $('#DeltaTopNavigation .menu-item-text');
+            //#DeltaTopNavigation for Seattle MasterPage and #DeltaHorizontalQuickLaunch for Oslo MasterPage
+            var horizontalMenuItemsText = ($('#DeltaTopNavigation .menu-item-text').length == 0 ? $('#DeltaHorizontalQuickLaunch .menu-item-text') : $('#DeltaTopNavigation .menu-item-text'));
             var verticalMenuItemsText = $('#DeltaPlaceHolderLeftNavBar .menu-item-text');
             appendIcons(horizontalMenuIcons, horizontalMenuItemsText);
             appendIcons(verticalMenuIcons, verticalMenuItemsText);
