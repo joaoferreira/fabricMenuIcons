@@ -1,15 +1,14 @@
 ﻿//Get script location to inject the css file
 var scripts = document.getElementsByTagName("script");
 var pathIcons = "";
-if (scripts && scripts.length > 0) {
-    for (var i in scripts) {
-        if (scripts[i].src && scripts[i].src.match(/fabricmenuicons\.js$/)) {
-            pathIcons = scripts[i].src.replace(/(.*)fabricmenuicons\.js$/, "$1");
-            pathIcons = pathIcons.replace("/js/", "/");
-            break;
-        }
-    }
-};
+	if (scripts && scripts.length > 0) {
+		for (var i in scripts) {
+			if (scripts[i].src && scripts[i].src.match(/\/js\/fabricmenuicons\.js/)) {
+				pathIcons = scripts[i].src.replace(/(.*)\/js\/fabricmenuicons\.js.*/,"$1/");
+				break;
+			}
+		}
+	};
 
 
 function injectCSS() {
